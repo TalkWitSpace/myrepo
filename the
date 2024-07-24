@@ -1,0 +1,243 @@
+Here is the script rewritten with teams from the Midland Wachusett Interscholastic League and the Southern Worcester County League:
+
+```json
+{
+  "promotionRoutes": {
+    "MID": "WAC",
+    "SOU": "NWC",
+    "CEN": "SOU",
+    "WAC": "MID",
+    "EAS": "CEN",
+    "WES": "EAS"
+  },
+  "baseYear": 2014,
+  "relegationRoutes": {
+    "WAC": "MID",
+    "NWC": "SOU",
+    "SOU": "CEN",
+    "MID": "WAC",
+    "CEN": "EAS",
+    "EAS": "WES"
+  },
+  "conferences": [
+    {
+      "confFullName": "Midland Wachusett League",
+      "confPrestige": "85",
+      "confName": "MID",
+      "confTeams": [
+        {
+          "name": "Algonquin",
+          "state": "Massachusetts",
+          "abbreviation": "ALG",
+          "rival": ["SHR"],
+          "rivalryNames": {},
+          "prestige": "75",
+          "hexColor": "#006400"
+        },
+        {
+          "name": "Shrewsbury",
+          "state": "Massachusetts",
+          "abbreviation": "SHR",
+          "rival": ["ALG"],
+          "rivalryNames": {},
+          "prestige": "80",
+          "hexColor": "#FFD700"
+        },
+        {
+          "name": "Wachusett",
+          "state": "Massachusetts",
+          "abbreviation": "WAC",
+          "rival": ["LEV"],
+          "rivalryNames": {},
+          "prestige": "90",
+          "hexColor": "#000080"
+        },
+        {
+          "name": "Leominster",
+          "state": "Massachusetts",
+          "abbreviation": "LEV",
+          "rival": ["WAC"],
+          "rivalryNames": {},
+          "prestige": "85",
+          "hexColor": "#FF4500"
+        },
+        {
+          "name": "Fitchburg",
+          "state": "Massachusetts",
+          "abbreviation": "FIT",
+          "rival": ["NLE"],
+          "rivalryNames": {},
+          "prestige": "70",
+          "hexColor": "#8B0000"
+        },
+        {
+          "name": "North Middlesex",
+          "state": "Massachusetts",
+          "abbreviation": "NMD",
+          "rival": ["GD"],
+          "rivalryNames": {},
+          "prestige": "65",
+          "hexColor": "#0000FF"
+        },
+        {
+          "name": "Groton-Dunstable",
+          "state": "Massachusetts",
+          "abbreviation": "GD",
+          "rival": ["NMD"],
+          "rivalryNames": {},
+          "prestige": "60",
+          "hexColor": "#FFA500"
+        },
+        {
+          "name": "Shepherd Hill",
+          "state": "Massachusetts",
+          "abbreviation": "SHL",
+          "rival": ["TNT"],
+          "rivalryNames": {},
+          "prestige": "68",
+          "hexColor": "#8B4513"
+        },
+        {
+          "name": "Tantasqua",
+          "state": "Massachusetts",
+          "abbreviation": "TNT",
+          "rival": ["SHL"],
+          "rivalryNames": {},
+          "prestige": "72",
+          "hexColor": "#2E8B57"
+        },
+        {
+          "name": "Northbridge",
+          "state": "Massachusetts",
+          "abbreviation": "NBD",
+          "rival": ["UXB"],
+          "rivalryNames": {},
+          "prestige": "78",
+          "hexColor": "#8A2BE2"
+        }
+      ]
+    },
+    {
+      "confFullName": "Southern Worcester County League",
+      "confPrestige": "70",
+      "confName": "SOU",
+      "confTeams": [
+        {
+          "name": "Auburn",
+          "state": "Massachusetts",
+          "abbreviation": "AUB",
+          "rival": ["BUR"],
+          "rivalryNames": {},
+          "prestige": "65",
+          "hexColor": "#000080"
+        },
+        {
+          "name": "Bartlett",
+          "state": "Massachusetts",
+          "abbreviation": "BAR",
+          "rival": ["NBD"],
+          "rivalryNames": {},
+          "prestige": "60",
+          "hexColor": "#008000"
+        },
+        {
+          "name": "Burncoat",
+          "state": "Massachusetts",
+          "abbreviation": "BUR",
+          "rival": ["AUB"],
+          "rivalryNames": {},
+          "prestige": "55",
+          "hexColor": "#FF0000"
+        },
+        {
+          "name": "David Prouty",
+          "state": "Massachusetts",
+          "abbreviation": "DPR",
+          "rival": ["LEX"],
+          "rivalryNames": {},
+          "prestige": "50",
+          "hexColor": "#800080"
+        },
+        {
+          "name": "Doherty",
+          "state": "Massachusetts",
+          "abbreviation": "DOH",
+          "rival": ["NLB"],
+          "rivalryNames": {},
+          "prestige": "58",
+          "hexColor": "#FFD700"
+        },
+        {
+          "name": "Grafton",
+          "state": "Massachusetts",
+          "abbreviation": "GRA",
+          "rival": ["SCT"],
+          "rivalryNames": {},
+          "prestige": "70",
+          "hexColor": "#FF4500"
+        },
+        {
+          "name": "Millbury",
+          "state": "Massachusetts",
+          "abbreviation": "MIL",
+          "rival": ["OXF"],
+          "rivalryNames": {},
+          "prestige": "62",
+          "hexColor": "#0000CD"
+        },
+        {
+          "name": "Oxford",
+          "state": "Massachusetts",
+          "abbreviation": "OXF",
+          "rival": ["MIL"],
+          "rivalryNames": {},
+          "prestige": "55",
+          "hexColor": "#8B0000"
+        },
+        {
+          "name": "St. Peter-Marian",
+          "state": "Massachusetts",
+          "abbreviation": "SPM",
+          "rival": ["DOH"],
+          "rivalryNames": {},
+          "prestige": "68",
+          "hexColor": "#2E8B57"
+        },
+        {
+          "name": "Uxbridge",
+          "state": "Massachusetts",
+          "abbreviation": "UXB",
+          "rival": ["NBD"],
+          "rivalryNames": {},
+          "prestige": "60",
+          "hexColor": "#FFA500"
+        }
+      ]
+    }
+  ],
+  "bowlGames": [
+    "Rose Bowl",
+    "Peach Bowl",
+    "Sugar Bowl",
+    "Cotton Bowl",
+    "Orange Bowl",
+    "Fiesta Bowl",
+    "Sun Bowl",
+    "Gator Bowl",
+    "Citrus Bowl",
+    "Liberty Bowl",
+    "Independence Bowl",
+    "Holiday Bowl",
+    "Tampa Bay Bowl",
+    "Gauranteed Rate Bowl",
+    "Cheez-It Bowl",
+    "Las Vegas Bowl",
+    "Alamo Bowl",
+    "Idaho Potato Bowl",
+    "Music City Bowl",
+    "Lending Tree Bowl",
+    "New Orleans Bowl",
+    "San Fransisco Bowl",
+    "TEST BOWL"
+  ]
+}
